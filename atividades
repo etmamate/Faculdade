@@ -1,68 +1,9 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-class Primeiro   
-{
-    public static void main (String[] args) 
-    {
-        Scanner scn = new Scanner(System.in);
-        System.out.println("É preciso fazer todas as exercícios para aprender");
-    }
-}
-
-class Segunda
-{   
-    public static void main(String[] args)
-    {
-        Scanner scn = new Scanner(System.in);
-        System.out.println("ATIVIDADE 2: ESCREVA UM PROGRAMA PARA LER DOIS NÚMERO INTEIROS E EXIBI-LOS");
-        System.out.println("Digite um número: ");
-        int n1 = scn.nextInt();
-        System.out.println("Digite outro número: ");
-        int n2 = scn.nextInt();
-        System.out.printf("Seus números são: %s e %S.%n", n1, n2);
-
-    }
-}
-
-class Terceira
-{
-    public static void main(String[] args)
-    {
-        Scanner scn = new Scanner(System.in);
-        System.out.println("ATIVIDADE 3: ESCREVA UM PROGRAMA PARA LER UM NÚMERO INTEIRO E EXIBIR SEU ANTECESSOR E SEU SUCESSOR!");
-        System.out.println("Digite um número: ");
-        int nn1 = scn.nextInt();
-        System.out.printf("O Antecessor de: "+nn1+" é "+ (nn1 - 1) +" e o sucessor é: "+ (nn1 + 1)+".%n");
-    }
-}
-
-class Quarta
-{
-    public static void main(String[] args)
-    {
-        Scanner scn = new Scanner(System.in);
-        System.out.println("ATIVIDADE 4: ESCREVA UM PROGRAMA QUE LEIA DOIS NÚMEROS E FAÇA A SOMA");
-        System.out.println("Digite um número: ");
-        int s1 = scn.nextInt();
-        System.out.println("Digite o segundo número: ");
-        int s2 = scn.nextInt();
-        System.out.printf("A soma desses números é:"+ (s1 + s2)+".%n");
-    }
-}
-
 class Quinta
 {
-    public static void main(String[] args)
-    {
-        Scanner scn = new Scanner(System.in);
-        System.out.println("ATIVIDADE 5: ESCREVA UM PROGRAMA QUE MOSTRE A DIFERENÇA DE DOIS NÚMEROS");
-        System.out.println("Digite um número: ");
-        int d1 = scn.nextInt();
-        System.out.print("Digite o segundo número: ");
-        int d2 = scn.nextInt();
-        System.out.printf("A diferença desses dois número é: "+ (d1 - d2)+".%n");
-    }
+    
 }
 
 class Sexta
