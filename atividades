@@ -1,25 +1,3 @@
-import java.util.ArrayList;
-import java.util.Scanner;
-
-class Quinta
-{
-    
-}
-
-class Sexta
-{
-    public static void main(String[] args)
-    {
-        Scanner scn = new Scanner(System.in);
-        System.out.println("ATIVIDADE 6: ESCREVA UM PROGRAMA QUE MOSTRE A MULTIPLICAÇÃO DE DOIS NÚMEROS");
-        System.out.println("Digite um número: ");
-        int m1 = scn.nextInt();
-        System.out.println("Digite outro número: ");
-        int m2 = scn.nextInt();
-        System.out.printf("A Multiplicação desses números é: "+ (m1 * m2) + ".%n");
-    }
-}
-
 class Setima
 {
     public static void main(String[] args)
